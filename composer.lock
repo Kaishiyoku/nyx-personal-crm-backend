@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07d536e89f37bb96089432c6a626324e",
+    "content-hash": "e0d2ed767cf119d4db4f4f2375b8e1ba",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -738,6 +738,69 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "kaishiyoku/laravel-cli-create-user",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kaishiyoku/laravel-cli-create-user.git",
+                "reference": "ecfa5ed5bd10154e3bdbce9e77b23e91656c2283"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kaishiyoku/laravel-cli-create-user/zipball/ecfa5ed5bd10154e3bdbce9e77b23e91656c2283",
+                "reference": "ecfa5ed5bd10154e3bdbce9e77b23e91656c2283",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+                "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+                "illuminate/validation": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kaishiyoku\\CreateUser\\CreateUserServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kaishiyoku\\CreateUser\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Wiedel",
+                    "email": "dev@andreas-wiedel.de",
+                    "homepage": "https://andreas-wiedel.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An artisan command to create, list and remove users in a laravel application from the cli",
+            "homepage": "https://github.com/kaishiyoku/laravel-cli-create-user",
+            "keywords": [
+                "BOA Ideas",
+                "artisan",
+                "cli",
+                "create",
+                "database",
+                "eloquent",
+                "email",
+                "laravel",
+                "laravel-create-user",
+                "list",
+                "remove",
+                "user"
+            ],
+            "time": "2020-03-04T19:54:26+00:00"
         },
         {
             "name": "laravel/framework",

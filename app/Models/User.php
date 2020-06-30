@@ -31,6 +31,8 @@ use Illuminate\Notifications\Notifiable;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\User whereRememberToken($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\User whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property string|null $api_token
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\User whereApiToken($value)
  */
 class User extends Authenticatable
 {
